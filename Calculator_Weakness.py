@@ -67,7 +67,7 @@ Nothdic = {
     
 #---------------------------------------------------------------------------------------------------------------Type Calculator--------------------
 
-#Type_Comp_Eng = ([[a,b,c] for a in all_Types_Eng for b in all_Types_Eng if b != a for c in all_Types_Eng if c != a and c != b]) 
+#for Carmesin/Purpur: Type_Comp_Eng = ([[a,b,c] for a in all_Types_Eng for b in all_Types_Eng if b != a for c in all_Types_Eng if c != a and c != b]) 
 Type_Comp_Eng = ([[a,b] for a in all_Types_Eng for b in all_Types_Eng if b != a ]) 
     
              
